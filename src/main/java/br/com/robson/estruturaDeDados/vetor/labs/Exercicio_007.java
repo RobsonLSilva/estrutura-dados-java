@@ -6,7 +6,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Exercicio_007 extends Exercicio_006 {
 
@@ -16,7 +15,7 @@ public class Exercicio_007 extends Exercicio_006 {
         BufferedReader scan = new BufferedReader(new InputStreamReader(System.in));
 
         //criar vetor com 20 de capacidade
-        ArrayList<Contato> lista = new ArrayList<Contato>(20);
+        ArrayList<Contato> lista = new ArrayList<>(20);
 
         //criar e adicionar X contatos
         criarContatosDinamicamente(5, lista);
